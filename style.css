@@ -1,0 +1,38 @@
+body{
+    height: 2000px;
+}
+header{
+    background-color: black ;
+    width: 200vh;
+    height: 70px;
+}
+ul{
+    display: flex;
+    float: right;
+    
+}
+h1{
+    color: rgb(61, 180, 61);
+    padding-top: 15px;
+    padding-left: 30px;
+    
+}
+span{
+    color: white;
+}
+li{
+    display: inline-block;
+    padding: 35px;
+    position: relative;
+    top: -105px;
+    color: white;
+}
+
+.main{
+    font-family: 'Open Sans', sans-serif;
+    position: sticky;
+    top: 0px;
+}
+li:hover{
+    color: yellow;
+}
